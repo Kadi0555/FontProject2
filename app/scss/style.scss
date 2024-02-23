@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    ul,li{list-style: none;}
+}
+body{
+    .container__color{
+        .container__width{
+            max-width:1230px;
+            margin:0 auto;
+            .container__content{
+                display:grid;
+                grid-template-columns: 130px 447px 421px;
+                justify-content:space-between;
+                align-items: center;
+                padding:10px 0;
+                .content__img{
+                    display:flex;
+                    align-items: center;
+                    position: relative;
+                    top:0;
+                    .label{
+                        font-size: 27px;
+                        font-weight: 600;
+                    }
+                    .svg{
+                        img{
+                            margin-top:5px;
+                        }
+                    }
+                }
+                .navigation{
+                    font-family: Ubuntu;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    // margin-left:60.13px;
+                    .list{
+
+                        display:flex;
+                        gap:40px;
+                        .link{}
+                    }
+                }
+                .content__telMsg{
+                    display:flex;
+                    gap:12px;
+                    justify-content:end;
+                    align-items: center;
+                    .tel{
+                        width: 175px;
+                        height:48px;
+
+                        display:flex;
+                        align-items: center;
+
+                        //styleName: small/bold;
+
+
+                        .phone{}
+                        .content{
+                            .label{
+                                font-family: Ubuntu;
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 21px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+                            .number{
+                                font-family: Ubuntu;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 27px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .message{
+                        display:flex;
+                        align-items: center;
+
+                        .msg{
+                            
+                        }
+                        .content{
+                            .label{
+                                font-family: Ubuntu;
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 21px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+                            .email{
+                                font-family: Ubuntu;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 27px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

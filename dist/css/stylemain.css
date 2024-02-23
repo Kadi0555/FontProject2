@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 3000px;
+}
+body main .container .swiper {
+  width: 100%;
+  height: 980px;
+}
+body main .container .swiper .swiper-slide img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body main .container .swiper .swiper-pagination {
+  top: 868px;
+  left: -333px;
+}
+body main .container .swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 178px;
+  height: 2px;
+  border-radius: 0;
+  background-color: #fff;
+}
+body main .container .swiper .swiper-button-next, body main .container .swiper .swiper-button-prev {
+  color: #fff;
+  opacity: 0;
+}
+body main .container .swiper .wrapper {
+  position: absolute;
+  top: 220px;
+  left: 345px;
+  z-index: 3;
+  color: #fff;
+}
+body main .container .swiper .wrapper .container__one {
+  display: grid;
+  gap: 30px;
+}
+body main .container .swiper .wrapper .container__one .label h1 {
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+body main .container .swiper .wrapper .container__one .text {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body main .container .swiper .wrapper .container__one .buttons button {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+body main .container .swiper .wrapper .container__one .buttons button:nth-child(1) {
+  width: 278px;
+  height: 52px;
+  padding: 0px, 40px, 0px, 40px;
+  border-radius: 4px;
+  border: 1px;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  margin-right: 24px;
+}
+body main .container .swiper .wrapper .container__one .buttons button:nth-child(2) {
+  background-color: rgb(255, 90, 48);
+  width: 224px;
+  height: 52px;
+  padding: 0px, 40px, 0px, 40px;
+  border-radius: 4px;
+  gap: 10px;
+}

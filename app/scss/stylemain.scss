@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding:0;
+    margin:0;
+}
+body{
+    height:3000px;
+    main{
+        .container{
+            .swiper{
+                width:100%;
+                height:980px;
+                .swiper-wrapper{
+                }
+                .swiper-slide{
+                        img{
+                            position:absolute;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                        &:nth-child(1){}
+                        &:nth-child(2){}
+                        &:nth-child(3){}
+                }
+                .swiper-pagination{
+                    top:868px;
+                    left:-333px;
+                    .swiper-pagination-bullet{
+                        width:178px;
+                        height: 2px;
+                        border-radius: 0;
+                        background-color: #fff;
+                    }
+                }
+                .swiper-button-prev{
+
+                }
+                .swiper-button-next{
+
+                }
+                .swiper-button-next,.swiper-button-prev{
+                    color:#fff;
+                    opacity: 0;
+                }
+                .wrapper{
+                    position:absolute;
+                    top:220px;
+                    left:345px;
+                    z-index: 3;
+                    color:#fff;
+                    .container__one{
+                        display:grid;
+                        gap:30px;
+                        .label{
+                            h1{
+                                font-family: Ubuntu;
+                                font-size: 72px;
+                                font-weight: 700;
+                                line-height: 94px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                            }
+                        }
+                        .text{
+                            font-family: Ubuntu;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 30px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+                        .buttons{
+
+                            button{
+                                font-family: Ubuntu;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 52px;
+                                letter-spacing: 0.5px;
+                                text-align: center;
+                                color:#fff;
+                                &:nth-child(1){
+                                    width: 278px;
+                                    height: 52px;
+                                    padding: 0px, 40px, 0px, 40px;
+                                    border-radius: 4px;
+                                    border: 1px;
+                                    gap: 10px;
+                                    background-color: rgba(0, 0, 0, 0);
+                                    border:1px solid  rgba(255, 255, 255, 1);
+                                    margin-right:24px;
+                                }
+                                &:nth-child(2){
+                                    background-color:rgba(255, 90, 48, 1) ;
+                                    width: 224px;
+                                    height: 52px;  
+                                    padding: 0px, 40px, 0px, 40px;
+                                    border-radius: 4px;
+                                    gap: 10px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

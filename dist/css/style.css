@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* ul, * li {
+  list-style: none;
+}
+
+body .container__color .container__width {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+body .container__color .container__width .container__content {
+  display: grid;
+  grid-template-columns: 130px 447px 421px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+body .container__color .container__width .container__content .content__img {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+body .container__color .container__width .container__content .content__img .label {
+  font-size: 27px;
+  font-weight: 600;
+}
+body .container__color .container__width .container__content .content__img .svg img {
+  margin-top: 5px;
+}
+body .container__color .container__width .container__content .navigation {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container__color .container__width .container__content .navigation .list {
+  display: flex;
+  gap: 40px;
+}
+body .container__color .container__width .container__content .content__telMsg {
+  display: flex;
+  gap: 12px;
+  justify-content: end;
+  align-items: center;
+}
+body .container__color .container__width .container__content .content__telMsg .tel {
+  width: 175px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+body .container__color .container__width .container__content .content__telMsg .tel .content .label {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container__color .container__width .container__content .content__telMsg .tel .content .number {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container__color .container__width .container__content .content__telMsg .message {
+  display: flex;
+  align-items: center;
+}
+body .container__color .container__width .container__content .content__telMsg .message .content .label {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container__color .container__width .container__content .content__telMsg .message .content .email {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
