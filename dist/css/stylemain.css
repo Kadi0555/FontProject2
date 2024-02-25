@@ -86,3 +86,165 @@ body main .container .swiper .wrapper .container__one .buttons button:nth-child(
   border-radius: 4px;
   gap: 10px;
 }
+body main .container .container .container__block {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+body main .container .container .container__block:nth-child(1) .block__label {
+  margin-top: 120px;
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body main .container .container .container__block:nth-child(1) .block__text {
+  margin: 24px 0 60px 0;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body main .container .container .container__block:nth-child(1) .block__video {
+  margin: 0 auto;
+  max-width: 1230px;
+  height: 500px;
+}
+body main .container .container .container__block:nth-child(1) .block__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body main .container .container .container__block:nth-child(2) {
+  margin-top: 180px;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues {
+  text-align: center;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__label {
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__text {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  margin: 24px 0 60px 0;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__list {
+  display: flex;
+  justify-content: space-between;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__list .list {
+  width: 285px;
+  height: 188px;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__list .list .label {
+  margin: 24px 0 8px 0;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__list .list .text {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(120, 122, 128);
+}
+body main .container .container .container__block:nth-child(2) .block__ourValues .block__list .list:nth-child(3) {
+  width: 300px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration {
+  width: 1230px;
+  height: 243px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .registration__label {
+  margin: 40px 0 0 0;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 48px;
+  justify-content: center;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__name {
+  width: 260px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__name .txt {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__name form input {
+  width: 100%;
+  height: 44px;
+  padding-left: 16px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__phone {
+  width: 260px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__phone .txt {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__phone form input {
+  width: 100%;
+  height: 44px;
+  padding-left: 16px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__message {
+  width: 414px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__message .txt {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .block__message form input {
+  width: 100%;
+  height: 44px;
+  padding-left: 16px;
+}
+body main .container .container .container__block:nth-child(3) .block__registration .block__authorized .btn__auth {
+  height: 44px;
+  width: 104px;
+  margin-top: 20px;
+  background-color: rgb(255, 90, 48);
+  color: #fff;
+}
